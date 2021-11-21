@@ -12,9 +12,10 @@
 
 body {
     height: 100%;
-  margin: 0;
-  font-family: var(--font-family-roboto);
-  font-size: 1.3rem;
+    margin: 0;
+    font-family: var(--font-family-roboto);
+    font-size: 1.3rem;
+    background-color: cornsilk;
 }
 
 body,
@@ -58,6 +59,7 @@ ul {
    margin: 132px;
     width: 150px;
     height: 150px;
+    mix-blend-mode: multiply;
 }
 
 .arrow{
@@ -80,8 +82,4 @@ ul {
 .cardName{
     font-size: 100%;
     text-align: center;
-}
-
-.call{
-
 }
