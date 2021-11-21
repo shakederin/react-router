@@ -1,0 +1,87 @@
+/* .main{
+    display: grid;
+    grid-template-columns: repeat (9, 1fr);
+    grid-template-rows: repeat (9, 1fr);
+} */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+  margin: 0;
+  font-family: var(--font-family-roboto);
+  font-size: 1.3rem;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.hotelCard{
+    background-color: aqua;
+    padding: 15px;
+    margin: 15px;
+}
+
+.hotelImg {
+    width: 255px;
+    height: 195px;  
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 8% 0;
+}
+
+.hangUp{
+   margin: 132px;
+    width: 150px;
+    height: 150px;
+}
+
+.arrow{
+    background-color:aqua;
+    font-size: 75px;
+}
+
+.center{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pa{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.cardName{
+    font-size: 100%;
+    text-align: center;
+}
+
+.call{
+
+}
